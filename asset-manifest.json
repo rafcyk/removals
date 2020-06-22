@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/removals/static/css/main.6481b0eb.chunk.css",
-    "main.js": "/removals/static/js/main.88febaa5.chunk.js",
-    "main.js.map": "/removals/static/js/main.88febaa5.chunk.js.map",
+    "main.css": "/removals/static/css/main.53787357.chunk.css",
+    "main.js": "/removals/static/js/main.ba566570.chunk.js",
+    "main.js.map": "/removals/static/js/main.ba566570.chunk.js.map",
     "runtime-main.js": "/removals/static/js/runtime-main.ee32105d.js",
     "runtime-main.js.map": "/removals/static/js/runtime-main.ee32105d.js.map",
     "static/js/2.1165f7f1.chunk.js": "/removals/static/js/2.1165f7f1.chunk.js",
     "static/js/2.1165f7f1.chunk.js.map": "/removals/static/js/2.1165f7f1.chunk.js.map",
     "index.html": "/removals/index.html",
-    "precache-manifest.bfd6f6332bd8665227bf56d3fa585f66.js": "/removals/precache-manifest.bfd6f6332bd8665227bf56d3fa585f66.js",
+    "precache-manifest.e449fb9c86289785e389afa3cfb533c0.js": "/removals/precache-manifest.e449fb9c86289785e389afa3cfb533c0.js",
     "service-worker.js": "/removals/service-worker.js",
-    "static/css/main.6481b0eb.chunk.css.map": "/removals/static/css/main.6481b0eb.chunk.css.map",
+    "static/css/main.53787357.chunk.css.map": "/removals/static/css/main.53787357.chunk.css.map",
     "static/js/2.1165f7f1.chunk.js.LICENSE.txt": "/removals/static/js/2.1165f7f1.chunk.js.LICENSE.txt",
     "static/media/car.png": "/removals/static/media/car.7b460ee7.png",
     "static/media/hamburger-icon.png": "/removals/static/media/hamburger-icon.79b18a5d.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.ee32105d.js",
     "static/js/2.1165f7f1.chunk.js",
-    "static/css/main.6481b0eb.chunk.css",
-    "static/js/main.88febaa5.chunk.js"
+    "static/css/main.53787357.chunk.css",
+    "static/js/main.ba566570.chunk.js"
   ]
 }
