@@ -1,55 +1,97 @@
 /* Color Theme Swatches in Hex */
-.Landesa---Land-Rights-1-hex { color: #BF344D; }
-.Landesa---Land-Rights-2-hex { color: #B2BF4B; }
-.Landesa---Land-Rights-3-hex { color: #F2AE30; }
-.Landesa---Land-Rights-4-hex { color: #F2DDB6; }
-.Landesa---Land-Rights-5-hex { color: #D95D41; }
+.Landesa---Land-Rights-1-hex {
+  color: #BF344D;
+}
+
+.Landesa---Land-Rights-2-hex {
+  color: #B2BF4B;
+}
+
+.Landesa---Land-Rights-3-hex {
+  color: #F2AE30;
+}
+
+.Landesa---Land-Rights-4-hex {
+  color: #F2DDB6;
+}
+
+.Landesa---Land-Rights-5-hex {
+  color: #D95D41;
+}
 
 /* Color Theme Swatches in RGBA */
-.Landesa---Land-Rights-1-rgba { color: rgba(191, 51, 77, 1); }
-.Landesa---Land-Rights-2-rgba { color: rgba(177, 191, 74, 1); }
-.Landesa---Land-Rights-3-rgba { color: rgba(242, 174, 48, 1); }
-.Landesa---Land-Rights-4-rgba { color: rgba(242, 221, 181, 1); }
-.Landesa---Land-Rights-5-rgba { color: rgba(216, 92, 65, 1); }
+.Landesa---Land-Rights-1-rgba {
+  color: rgba(191, 51, 77, 1);
+}
+
+.Landesa---Land-Rights-2-rgba {
+  color: rgba(177, 191, 74, 1);
+}
+
+.Landesa---Land-Rights-3-rgba {
+  color: rgba(242, 174, 48, 1);
+}
+
+.Landesa---Land-Rights-4-rgba {
+  color: rgba(242, 221, 181, 1);
+}
+
+.Landesa---Land-Rights-5-rgba {
+  color: rgba(216, 92, 65, 1);
+}
 
 /* Color Theme Swatches in HSLA */
-.Landesa---Land-Rights-1-hsla { color: hsla(348, 57, 47, 1); }
-.Landesa---Land-Rights-2-hsla { color: hsla(67, 47, 52, 1); }
-.Landesa---Land-Rights-3-hsla { color: hsla(39, 88, 56, 1); }
-.Landesa---Land-Rights-4-hsla { color: hsla(39, 70, 83, 1); }
-.Landesa---Land-Rights-5-hsla { color: hsla(11, 66, 55, 1); }
+.Landesa---Land-Rights-1-hsla {
+  color: hsla(348, 57, 47, 1);
+}
 
-*{
-  margin:0;
+.Landesa---Land-Rights-2-hsla {
+  color: hsla(67, 47, 52, 1);
+}
+
+.Landesa---Land-Rights-3-hsla {
+  color: hsla(39, 88, 56, 1);
+}
+
+.Landesa---Land-Rights-4-hsla {
+  color: hsla(39, 70, 83, 1);
+}
+
+.Landesa---Land-Rights-5-hsla {
+  color: hsla(11, 66, 55, 1);
+}
+
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 10px;
 }
 
 /* -----------------NAVIGATION----------------- */
-nav{
+nav {
   position: fixed;
-  top:0;
+  top: 0;
   left: 0;
-  width:100%;
+  width: 100%;
   height: 7vh;
-  z-index: 9999!important;
+  z-index: 9999 !important;
   transition: .2s;
   background-color: #BF344D;
 }
 
-nav.transparent:hover{
+nav.transparent:hover {
   opacity: 1;
   height: 7vh;
 }
 
-nav ul{
-  width:100%;
+nav ul {
+  width: 100%;
   height: 100%;
   list-style: none;
   display: flex;
@@ -57,48 +99,49 @@ nav ul{
   align-items: center;
 }
 
-nav ul li{
+nav ul li {
   margin-right: 50px;
   font-size: 2.5rem;
   cursor: pointer;
-  color:#fff;
+  color: #fff;
   transition: .2s;
 }
 
-nav ul li:hover{
-  color:#000;
+nav ul li:hover {
+  color: #000;
 }
 
-nav img.menu-icon{
-position: absolute;
-width:40px;
-height: 40px;
-top:50%;
-right: 5%;
-transform: translateY(-50%);
-cursor: pointer;
-display: none;
+nav img.menu-icon {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
 }
 
-nav.active{
+nav.active {
   width: 100%;
   height: 100vh;
   background-color: rgba(191, 51, 77, .9);
 }
 
-nav.active ul{
+nav.active ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-nav.active ul li{
+
+nav.active ul li {
   margin-bottom: 25px;
 }
 
 /* -----------------HEADER----------------- */
 
-header{
+header {
   position: relative;
   width: 100%;
   height: 100vh;
@@ -110,73 +153,75 @@ header{
   background-attachment: fixed;
 }
 
-header h1{
+header h1 {
   position: absolute;
-  top:50%;
-  right:5%;
-  transform: translate(-5%,-50%);
+  top: 50%;
+  right: 5%;
+  transform: translate(-5%, -50%);
   font-size: 5rem;
-  border:2px solid #fff;
+  border: 2px solid #fff;
   border-radius: 25px;
   padding: 15px 40px;
   color: #fff;
   z-index: 2;
 }
 
-header div.behind{
+header div.behind {
   position: absolute;
-  width:50%;
+  width: 50%;
   height: 100%;
-  top:0;
-  bottom:0;
-  right:0;
-  background-color: rgba(191, 51, 77, .8);;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(191, 51, 77, .8);
   z-index: 1;
 }
 
 /* ----------------SECTIONS----------------- */
-div.triangle-top-left{
+div.triangle-top-left {
   width: 0;
-	height: 0;
-	border-top: 200px solid #B2BF4B;
+  height: 0;
+  border-top: 200px solid #B2BF4B;
   border-right: 200px solid transparent;
   position: absolute;
-  top:5%;
-  left:5%;
+  top: 5%;
+  left: 5%;
 }
 
-div.triangle-bottom-right{
-	width: 0;
-	height: 0;
-	border-bottom: 200px solid #F2AE30;
-	border-left: 200px solid transparent;
+div.triangle-bottom-right {
+  width: 0;
+  height: 0;
+  border-bottom: 200px solid #F2AE30;
+  border-left: 200px solid transparent;
   position: absolute;
-  bottom:5%;
-  right:5%;
+  bottom: 5%;
+  right: 5%;
   z-index: -1;
 }
 
-section{
+section {
   position: relative;
   width: 100%;
   min-height: 90vh;
+  margin-top:200px;
+  opacity: 0;
 }
 
-section img{
+section img {
   position: absolute;
-  top:10%;
-  right:10%;
-  width:160px;
+  top: 10%;
+  right: 10%;
+  width: 160px;
   height: 90px;
   animation: carMove 1s infinite linear;
 }
 
-section div.wrap{
+section div.wrap {
   position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-  width:80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
   height: 70%;
   display: flex;
   justify-content: space-around;
@@ -184,11 +229,11 @@ section div.wrap{
   flex-direction: column;
 }
 
-section div.wrap h2{
+section div.wrap h2 {
   font-size: 3.5rem;
 }
 
-section div.wrap p{
+section div.wrap p {
   font-size: 2.5rem;
   padding: 10px;
   text-align: center;
@@ -196,25 +241,25 @@ section div.wrap p{
 
 /* ----------------OPINIONS----------------- */
 
-section.opinions div.wrap{
+section.opinions div.wrap {
   position: relative;
-  top:0;
+  top: 0;
   left: 0;
-  transform: translate(0,0);
-  margin:0 auto;
+  transform: translate(0, 0);
+  margin: 0 auto;
   padding: 150px 0;
 }
 
-section.opinions div.wrap div.wrap-opinions{
-  width:100%;
+section.opinions div.wrap div.wrap-opinions {
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   flex-direction: row;
 }
 
-section.opinions div.wrap div.wrap-opinions div.opinion{
+section.opinions div.wrap div.wrap-opinions div.opinion {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -225,20 +270,20 @@ section.opinions div.wrap div.wrap-opinions div.opinion{
   border: 2px solid #D95D41;
   border-radius: 25px;
   box-shadow: 5px 5px 15px black;
-  margin:25px;
+  margin: 25px;
 }
 
-section.opinions div.wrap div.wrap-opinions div.opinion p.desc{
+section.opinions div.wrap div.wrap-opinions div.opinion p.desc {
   font-size: 2rem;
 }
 
-section.opinions div.wrap div.wrap-opinions div.opinion p.name{
+section.opinions div.wrap div.wrap-opinions div.opinion p.name {
   font-size: 2rem;
   font-style: italic;
 }
 
 /* ----------------CONTACT----------------- */
-section.contact div.wrap div.numbers-addresses{
+section.contact div.wrap div.numbers-addresses {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -246,44 +291,61 @@ section.contact div.wrap div.numbers-addresses{
   flex-wrap: wrap;
 }
 
-section.contact div.wrap h2{
+section.contact div.wrap h2 {
   align-self: flex-start;
 }
 
-section.contact div.wrap div.numbers-addresses div{
+section.contact div.wrap div.numbers-addresses div {
   margin: 25px;
 }
 
-section.contact div.wrap div.numbers-addresses div.numbers p img{
+section.contact div.wrap div.numbers-addresses div.numbers p img {
   position: static;
   width: 40px;
   height: 30px;
   margin-right: 30px;
 }
 
-section.contact div.wrap div.numbers-addresses div.numbers p:nth-of-type(1) img{
+section.contact div.wrap div.numbers-addresses div.numbers p:nth-of-type(1) img {
   height: 40px;
   width: 30px;
 }
 
 /* ---------------js events-------------- */
-.transparent{
+.transparent {
   font-size: 2rem;
   opacity: .8;
   height: 6vh;
 }
 
+.appear{
+  animation: appear .5s forwards linear ;
+}
+
 /* ----------------ANIMATIONS----------------- */
-@keyframes carMove{
-  0%{
-    top:10%;
+@keyframes carMove {
+  0% {
+    top: 10%;
   }
 
-  50%{
-    top:8%;
+  50% {
+    top: 8%;
+  }
+
+  100% {
+    top: 10%;
+  }
+}
+
+@keyframes appear{
+  0%{
+    opacity: 0;
+    margin-top:200px;
+    left:0;
   }
 
   100%{
-    top:10%;
+    opacity: 1;
+    margin-top:0;
   }
 }

@@ -13,22 +13,39 @@ import './Media.css';
 function App() {
 
   window.addEventListener('scroll', () => {
-    if(window.pageYOffset > 500 && window.innerWidth > 800){
+    if (window.pageYOffset > document.querySelector('section.about').offsetTop - 700) {
+      document.querySelector('section.about').classList.add('appear');
+    } 
+     if (window.pageYOffset > document.querySelector('section.offer').offsetTop - 700) {
+      document.querySelector('section.offer').classList.add('appear');
+    } 
+    if (window.pageYOffset > document.querySelector('section.opinions').offsetTop - 700) {
+      document.querySelector('section.opinions').classList.add('appear');
+    } 
+     if (window.pageYOffset > document.querySelector('section.contact').offsetTop - 700) {
+      document.querySelector('section.contact').classList.add('appear');
+    }
+  })
+
+
+
+  window.addEventListener('scroll', () => {
+    if (window.pageYOffset > 500 && window.innerWidth > 800) {
       document.querySelector('nav').classList.add('transparent')
     }
-    else if(window.pageYOffset < 500 && window.innerWidth > 800){
+    else if (window.pageYOffset < 500 && window.innerWidth > 800) {
       document.querySelector('nav').classList.remove('transparent')
     }
   })
 
   return (
     <div className="App">
-      <Navigation/>
-      <Header/>
-      <About/>
-      <Offer/>
-      <Opinions/>
-      <Contact/>
+      <Navigation />
+      <Header />
+      <About />
+      <Offer />
+      <Opinions />
+      <Contact />
     </div>
   );
 }
