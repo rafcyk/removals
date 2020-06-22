@@ -1,0 +1,145 @@
+/* -------------------------HEADER-------------------- */
+@media only screen and (max-width:850px){
+    header h1{
+        right:0%;
+        transform: translate(-5%,-50%);
+        font-size: 4rem;
+        border-radius: 25px;
+        padding: 10px 30px;
+      }
+}
+
+@media only screen and (max-width:700px){
+    header h1{
+        transform: translate(-1%,-50%);
+        font-size: 3.5rem;
+        border-radius: 25px;
+        padding: 8px 20px;
+      }
+}
+
+@media only screen and (max-width:550px){
+    header h1{
+        font-size: 3rem;
+        left:2%;
+      }
+}
+
+/* -------------------------NAVIGATION-------------------- */
+
+@media only screen and (max-width:800px){
+  nav ul{
+    display: none;
+  }
+
+  nav img.menu-icon{
+    display: block;
+  }
+}
+
+/* -------------------------SECTIONS-------------------- */
+
+@media only screen and (max-width:800px){
+  div.triangle-top-left{
+    border-top: 150px solid #B2BF4B;
+    border-right: 150px solid transparent;
+  }
+  
+  div.triangle-bottom-right{
+    border-bottom: 150px solid #F2AE30;
+    border-left: 150px solid transparent;
+  }
+
+  section img{
+    width:120px;
+    height: 60px;
+  }
+
+  section div.wrap h2{
+    font-size: 3rem;
+  }
+  
+  section div.wrap p{
+    font-size: 2.2rem;
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width:500px){
+  div.triangle-top-left{
+    border-top: 100px solid #B2BF4B;
+    border-right: 100px solid transparent;
+  }
+  
+  div.triangle-bottom-right{
+    border-bottom: 100px solid #F2AE30;
+    border-left: 100px solid transparent;
+  }
+
+  section img{
+    width:90px;
+    height: 40px;
+  }
+
+  section div.wrap h2{
+    font-size: 2.8rem;
+  }
+  
+  section div.wrap p{
+    margin-top: 20px;
+    font-size: 2rem;
+  }
+
+  section.contact div.wrap h2{
+    margin-top: 50px;
+  }
+  
+  section.contact div.wrap div.numbers-addresses div{
+    margin: 10px;
+  }
+  
+
+
+  section.contact div.wrap div.numbers-addresses div.numbers p img{
+    width: 30px;
+    height: 25px;
+    margin-right: 15px;
+    font-size: 1.8rem;
+  }
+  
+  section.contact div.wrap div.numbers-addresses div.numbers p:nth-of-type(1) img{
+    height: 30px;
+    width: 20px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  section img{
+    width:60px;
+    height: 30px;
+  }
+
+  section div.wrap h2{
+    font-size: 2.5rem;
+  }
+  
+  section div.wrap p{
+    margin-top: 20px;
+    font-size: 1.8rem;
+  }
+
+  section.opinions div.wrap div.wrap-opinions div.opinion p.desc{
+    font-size: 1.8rem;
+  }
+
+  section.contact div.wrap div.numbers-addresses div.numbers p,
+  section.contact div.wrap div.numbers-addresses div.address p
+  {
+    margin-top: 0;
+  }
+
+  section.opinions div.wrap div.wrap-opinions div.opinion p.name{
+    font-size: 1.8rem;
+    margin-top: 0;
+  }
+}
