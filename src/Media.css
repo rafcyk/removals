@@ -143,3 +143,39 @@
     margin-top: 0;
   }
 }
+
+@media only screen and (max-height:500px){
+  nav img.menu-icon{
+    width:30px;
+    height: 30px;
+    }
+
+    div.triangle-top-left{
+      border-top: 100px solid #B2BF4B;
+      border-right: 100px solid transparent;
+    }
+    
+    div.triangle-bottom-right{
+      border-bottom: 100px solid #F2AE30;
+      border-left: 100px solid transparent;
+    }
+    
+    
+    section img{
+      width:80px;
+      height: 40px;
+    }
+    
+    section div.wrap h2{
+      font-size: 3rem;
+    }
+    
+    section div.wrap p{
+      font-size: 1.8rem;
+      padding: 5px;
+    }
+
+    section.opinions div.wrap div.wrap-opinions div.opinion p.desc{
+      font-size: 1.8rem;
+    }
+}
