@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/rafcyk/removals/static/css/main.f6c127f4.chunk.css",
+    "main.js": "/rafcyk/removals/static/js/main.88febaa5.chunk.js",
+    "main.js.map": "/rafcyk/removals/static/js/main.88febaa5.chunk.js.map",
+    "runtime-main.js": "/rafcyk/removals/static/js/runtime-main.725ab22c.js",
+    "runtime-main.js.map": "/rafcyk/removals/static/js/runtime-main.725ab22c.js.map",
+    "static/js/2.1165f7f1.chunk.js": "/rafcyk/removals/static/js/2.1165f7f1.chunk.js",
+    "static/js/2.1165f7f1.chunk.js.map": "/rafcyk/removals/static/js/2.1165f7f1.chunk.js.map",
+    "index.html": "/rafcyk/removals/index.html",
+    "precache-manifest.f550f767d341c2da8cdb297ccf7ab617.js": "/rafcyk/removals/precache-manifest.f550f767d341c2da8cdb297ccf7ab617.js",
+    "service-worker.js": "/rafcyk/removals/service-worker.js",
+    "static/css/main.f6c127f4.chunk.css.map": "/rafcyk/removals/static/css/main.f6c127f4.chunk.css.map",
+    "static/js/2.1165f7f1.chunk.js.LICENSE.txt": "/rafcyk/removals/static/js/2.1165f7f1.chunk.js.LICENSE.txt",
+    "static/media/car.png": "/rafcyk/removals/static/media/car.7b460ee7.png",
+    "static/media/hamburger-icon.png": "/rafcyk/removals/static/media/hamburger-icon.79b18a5d.png",
+    "static/media/App.css": "/rafcyk/removals/static/media/header-bgc.6e8c9d60.jpg",
+    "static/media/mail.png": "/rafcyk/removals/static/media/mail.ac490426.png",
+    "static/media/phone.png": "/rafcyk/removals/static/media/phone.f8a9e64b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.725ab22c.js",
+    "static/js/2.1165f7f1.chunk.js",
+    "static/css/main.f6c127f4.chunk.css",
+    "static/js/main.88febaa5.chunk.js"
+  ]
+}
