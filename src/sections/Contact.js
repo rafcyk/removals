@@ -6,7 +6,7 @@ import Fax from '../images/fax.png';
 
 const Contact = () => {
     return (
-        <section className = 'contact'>
+        <section className = 'contact' name = 'contact'>
             <div className="triangle-top-left"></div>
             <div className="wrap">
                 <h2>Kontakt</h2>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Opinions = () => {
     return (
-        <section className = 'opinions'>
+        <section className = 'opinions' name = 'opinions'>
             <div className="triangle-top-left"></div>
             <div className="wrap">
             <h2>Opinie</h2>

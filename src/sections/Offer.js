@@ -3,7 +3,7 @@ import Car from '../images/car.png';
 
 const Offer = () => {
     return (
-        <section className = 'offer'>
+        <section className = 'offer' name = 'offer'>
             <div className="triangle-top-left"></div>
             <img src={Car} alt=""/>
             <div className="wrap">
